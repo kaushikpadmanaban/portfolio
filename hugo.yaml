@@ -1,0 +1,45 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Kaushik Padmanaban
+theme: 'PaperMod'
+
+menu:
+  main:
+    - identifier: home
+      name: "Home"
+      url: "/"
+      weight: 1
+
+    # - identifier: projects
+    #   name: "Projects"
+    #   url: "/projects/"
+    #   weight: 2
+
+    # - identifier: blogs
+    #   name: "Blog"
+    #   url: "/blogs/"
+    #   weight: 3
+
+params:
+  profileMode:
+    enabled: true
+    title: "Hello there!" # optional default will be site title
+    subtitle: "Here lies every project I've pursued in [Cloud](/tags/Cloud), [Compliance](/tags/Compliance), [Automation](/tags/Automation) and [other relevant skills](/tags) in the current cybersecurity landscape"
+    # imageUrl: "<image link>" # optional
+    # imageTitle: "<title of image as alt>" # optional
+    # imageWidth: 120 # custom size
+    # imageHeight: 120 # custom size
+    buttons:
+      - name: Resumé
+        url: 'assets/CV.pdf'
+
+  socialIcons: # optional
+    - name: "GitHub"
+      url: "https://github.com/kaushikpadmanaban"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/kaushikpadmanaban/"
+    - name: "TryHackMe"
+      url: "https://tryhackme.com/p/Spillosopher"
+    - name: "Credly"
+      url: "https://www.credly.com/users/kaushik-padmanaban"
+      
