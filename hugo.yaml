@@ -43,3 +43,6 @@ params:
     - name: "Credly"
       url: "https://www.credly.com/users/kaushik-padmanaban"
       
+caches:
+  images:
+    dir: :cacheDir/images
